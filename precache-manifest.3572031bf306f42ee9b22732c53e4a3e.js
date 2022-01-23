@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e7ec6474fa8a10f81b868a1cbc6b5c39",
+    "revision": "57d67a25872759abe46e1142cd3c19dc",
     "url": "/easysolve/index.html"
   },
   {
-    "revision": "4713cd023e931416f20b",
+    "revision": "c70e998474d8eab2eea1",
     "url": "/easysolve/static/css/main.7d31d55c.chunk.css"
   },
   {
-    "revision": "d13bd73c231c71dd2283",
-    "url": "/easysolve/static/js/2.e7b20955.chunk.js"
+    "revision": "74ab989887d677e8a0d5",
+    "url": "/easysolve/static/js/2.4bdcc920.chunk.js"
   },
   {
     "revision": "117d65892edc8adcd29d4a0d57b5a80a",
-    "url": "/easysolve/static/js/2.e7b20955.chunk.js.LICENSE.txt"
+    "url": "/easysolve/static/js/2.4bdcc920.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "4713cd023e931416f20b",
-    "url": "/easysolve/static/js/main.08c6a10e.chunk.js"
+    "revision": "c70e998474d8eab2eea1",
+    "url": "/easysolve/static/js/main.7b6c2f6c.chunk.js"
   },
   {
-    "revision": "eb9d7af8d02aa10c830d",
-    "url": "/easysolve/static/js/runtime-main.51a2efc9.js"
+    "revision": "d95db30b4b48f6524a00",
+    "url": "/easysolve/static/js/runtime-main.5e4a4bdf.js"
   },
   {
     "revision": "3ce357e71a836a86691b904396a8955c",
