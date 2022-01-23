@@ -1,3 +1,11 @@
+# Attribution
+
+**All attribution goes to** Open React template's creators ([Cruip.com](https://cruip.com)), please follow links below to find out more.
+
+*Everything you see below is straight up copy Open React's Markdown file and is included for atribution purposes only. Should creators feel, that this inclusion somehow violates their terms of agreement, please let me know!*
+
+
+
 # Free React landing page template
 
 ![Open React template preview](https://user-images.githubusercontent.com/2683512/78789364-545e7100-79ad-11ea-9e3c-9528c99cda8e.png)

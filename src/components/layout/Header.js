@@ -78,6 +78,7 @@ const Header = ({
     <header
       {...props}
       className={classes}
+      style={{ position: "fixed !important" }}
     >
       <div className="container">
         <div className={
@@ -85,7 +86,8 @@ const Header = ({
             'site-header-inner',
             bottomDivider && 'has-bottom-divider'
           )}>
-          <Logo />
+          {/* <Logo /> */}
+          <Link to="/" onClick={closeMenu}>Easysolve</Link>
           {!hideNav &&
             <>
               <button
@@ -112,7 +114,13 @@ const Header = ({
                       navPosition && `header-nav-${navPosition}`
                     )}>
                     <li>
-                      <Link to="#0" onClick={closeMenu}>Documentation</Link>
+                      <Link to="/" onClick={closeMenu}>Work</Link>
+                    </li>
+                    <li>
+                      <Link to="/design" onClick={closeMenu}>Design</Link>
+                    </li>
+                    <li>
+                      <Link to="/about" onClick={closeMenu}>About</Link>
                     </li>
                   </ul>
                   {!hideSignin &&
@@ -120,7 +128,7 @@ const Header = ({
                       className="list-reset header-nav-right"
                     >
                       <li>
-                        <Link to="#0" className="button button-primary button-wide-mobile button-sm" onClick={closeMenu}>Sign up</Link>
+                        <Link to="/contact" className="button button-primary button-wide-mobile button-sm" onClick={closeMenu}>Contact</Link>
                       </li>
                     </ul>}
                 </div>

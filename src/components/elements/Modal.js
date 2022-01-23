@@ -75,35 +75,21 @@ const Modal = ({
           onClick={handleClose}
         >
           <div className="modal-inner" onClick={stopProgagation}>
-            {video ?
-              <div className="responsive-video">
-                {videoTag === 'iframe' ?
-                  <iframe
-                    title="video"
-                    src={video}
-                    frameBorder="0"
-                    allowFullScreen
-                  ></iframe> :
-                  <video
-                    v-else
-                    controls
-                    src={video}
-                  ></video>
-                }
-              </div> :
-              <>
-                {!closeHidden &&
-                  <button
-                    className="modal-close"
-                    aria-label="close"
-                    onClick={handleClose}
-                  ></button>
-                }
-                <div className="modal-content">
-                  {children}
-                </div>
-              </>
-            }
+            <div className="responsive-video">
+              {/* Image here */}
+            </div> :
+            <>
+              {!closeHidden &&
+                <button
+                  className="modal-close"
+                  aria-label="close"
+                  onClick={handleClose}
+                ></button>
+              }
+              <div className="modal-content">
+                {children}
+              </div>
+            </>
           </div>
         </div>
       }
